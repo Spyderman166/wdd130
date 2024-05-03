@@ -13,6 +13,10 @@ h1 {
     color: steelblue;
 }
 
+main {
+    max-width: 35rem;
+}
+
 main img {
     width: 150px;
     height: auto;
