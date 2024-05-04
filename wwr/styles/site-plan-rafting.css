@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -7,8 +10,8 @@ body {
 :root {
     --primary-color: #ffffff;
     --secondary-color: #39A9DB;
-    --accent-color: #F39237;
-    --additional-accent-color: #D63230;
+    --accent1-color: #F39237;
+    --accent2-color: #D63230;
     
     --heading-font: 'luminosimo' serif;
     --paragraph-font: 'merriweather' serif;
@@ -17,18 +20,16 @@ body {
     --nav-link-color: #78D0E3;
     --nav-hover-link-color: #34B8D5;
     --nav-hover-background-color: #1763A1;
-
-    
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color)
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent-color);
+    background-color: var(--accent1-color);
 }
 
 p {
