@@ -1,0 +1,58 @@
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #39A9DB;
+    --accent-color: #F39237;
+    --additional-accent-color: #D63230;
+    
+    --heading-font: 'luminosimo' serif;
+    --paragraph-font: 'merriweather' serif;
+    
+    --nav-background-color: #1C77C3;
+    --nav-link-color: #78D0E3;
+    --nav-hover-link-color: #34B8D5;
+    --nav-hover-background-color: #1763A1;
+
+    
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
