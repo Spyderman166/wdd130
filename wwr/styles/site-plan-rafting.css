@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 body {
@@ -13,8 +12,8 @@ body {
     --accent1-color: #F39237;
     --accent2-color: #D63230;
     
-    --heading-font: 'luminosimo' serif;
-    --paragraph-font: 'merriweather' serif;
+    --heading-font: 'Lumanosimo' serif;
+    --paragraph-font: 'Merriweather' serif;
     
     --nav-background-color: #1C77C3;
     --nav-link-color: #78D0E3;
