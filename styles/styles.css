@@ -40,6 +40,7 @@ p {
 aside {
     width: 35rem;
     text-align: center;
+    position: relative;
 }
 
 aside img {
