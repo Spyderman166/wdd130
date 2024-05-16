@@ -4,24 +4,39 @@
     box-sizing: border-box;
 }
 
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
+    display: flex;
     background-color: steelblue;
     padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
+    display: block;
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 h1 {
+    display: flex;
     color: steelblue;
     margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid steelblue;    
 }
 
 main {
-    max-width: 35rem;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -33,24 +48,32 @@ main img {
     float: right;
 }
 
+main ul {
+    font-size: larger;
+}
+
 p {
+    align-self: center;
     margin: 20px;
+    font-size: x-large;
 }
 
 aside {
-    width: 35rem;
+    width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 1rem;
 }
 
 aside img {
-    width: 500px;
+    width: 250px;
     height: auto;
 }
 
 aside h2 {
     position: absolute;
-    top: 700px;
     left: 110px;
     color: aliceblue;
 }
@@ -70,4 +93,9 @@ footer {
     padding: 1rem;
     background-color:white;
     color: black;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
