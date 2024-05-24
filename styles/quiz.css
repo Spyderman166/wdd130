@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    display: grid;
+    color: navy;
+    border-bottom: 2px solid navy;
+    text-align: center;
+    margin: 10px;
+}
+
+fieldset {
+    border: none;
+    padding: 5px;
+}
+
+legend {
+    color: navy;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    padding: 10px;
+}
+
+fieldset p {
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: fit-content;
+}
+
+label {
+    position: relative;
+    font-size: large;
+    padding: 10px;
+    left: 3%;
+}
+
+form {
+    display: grid;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 650px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+button, textarea, input, select, p {
+    margin: 10px;
+    padding: 3px;
+}
+
+button {
+    background-color: navy;
+    color: aliceblue;
+    height: 50px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+}
