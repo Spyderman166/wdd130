@@ -258,3 +258,13 @@ input {
     text-align: center;
     font-size: medium;
 }
+
+.contact {
+    position: relative;
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 2px solid var(--accent1-color);
+    max-width: 90%;
+    margin: 5px;
+    left: 10px;
+}
