@@ -101,7 +101,6 @@ header {
     grid-template-columns: 80px 1fr;
     max-width: 1000px;
     border-bottom: 2px solid var(--nav-hover-background-color);
-    border-width: 10000px;
 }
 
 section h2 {
