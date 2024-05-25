@@ -101,6 +101,7 @@ header {
     grid-template-columns: 80px 1fr;
     max-width: 1000px;
     border-bottom: 2px solid var(--nav-hover-background-color);
+    border-width: 10000px;
 }
 
 section h2 {
@@ -215,6 +216,7 @@ input {
 
 .form-item-row3 textarea {
     width: 95%;
+    max-width: 95%;
     height: 10vw;
     padding: 5px;
     margin-bottom: 10px;
