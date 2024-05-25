@@ -143,4 +143,117 @@ footer {
     justify-content: space-between;
 }
 
+.company-info {
+    border: 2px solid var(--accent1-color);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width:  35%;
+    float: right;
+}
 
+.company-info p {
+    font-size: medium;
+    padding: 5px;
+    margin: 5px;
+}
+
+.company-info iframe {
+    height: 25vw;
+    width: 100%;
+}
+
+.company-info h2 {
+    font-size: larger;
+    font-weight: 400;
+    border-bottom: 2px solid var(--accent1-color);
+    max-width: fit-content;
+    margin: 10px;
+    padding: 5px;
+}
+
+form {
+    border: 2px solid var(--accent1-color);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    max-width: 55%;
+}
+
+fieldset {
+    border: none;
+    margin: 10px;
+    padding: 5px;
+} 
+
+legend {
+    font-size: larger;
+    font-weight: 400;
+    border-bottom: 2px solid var(--accent1-color);
+}
+
+.form-item1 {
+    padding: 5px;
+}
+
+input {
+    max-width: 30%;
+}
+
+.h3 {
+    display: flex;
+    font-size: large;
+}
+
+.form-item-row2 {
+    margin: 5px;
+}
+
+.form-item-row2 input {
+    width: 50px;
+}
+
+.form-item-row3 textarea {
+    width: 95%;
+    height: 10vw;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form-item-row4 input {
+    float: left;
+}
+
+.form-item-row4 button {
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: larger;
+    background-color: var(--nav-background-color);
+    color: var(--accent1-color);
+    font-weight: 700;
+}
+
+.form-item-row4 button:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+.employees {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid var(--accent1-color);
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+    width: 97%;
+}
+
+.employees img {
+    width: 30vw;
+}
+
+.employees p {
+    text-align: center;
+    font-size: medium;
+}
